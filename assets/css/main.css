@@ -2254,6 +2254,8 @@
 		background: #fff;
 		color: #39454b;
 		padding: 2em;
+        border-radius: 25px;
+        opacity: 0.8;
 	}
 
 		.box.style2 {
@@ -3332,8 +3334,6 @@
 
 			.box {
 				padding: 1em;
-				border-radius: 25px;
-				opacity: 0.8;
 			}
 
 				.box.style2 {
