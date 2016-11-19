@@ -2372,7 +2372,7 @@
 			}
 
 			.main.style3.secondary {
-				background: #f5f6f7;
+				background: #d3d3d3;
 			}
 
 /* Dark */
@@ -2892,7 +2892,7 @@
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/two.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -3332,6 +3332,8 @@
 
 			.box {
 				padding: 1em;
+				border-radius: 25px;
+				opacity: 0.8;
 			}
 
 				.box.style2 {
@@ -3448,4 +3450,4 @@
 				opacity: 0.65;
 			}
 
-	}
+	}			
