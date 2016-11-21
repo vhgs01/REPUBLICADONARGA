@@ -6,6 +6,22 @@
 
 (function($) {
 
+	// Google Maps
+	if (window.innerWidth >= 1366) {
+		$('.maps_grande').removeClass('hide');
+	} else if (window.innerWidth >= 768) {
+		$('.maps_medio').removeClass('hide');
+	} else if (window.innerWidth >= 425) {
+		$('.maps_pequeno').css('width', '320px');
+		$('.maps_pequeno').removeClass('hide');
+	}else if (window.innerWidth >= 375) {
+		$('.maps_pequeno').css('width', '300px');
+		$('.maps_pequeno').removeClass('hide');
+	}else if (window.innerWidth >= 320) {
+		$('.maps_pequeno').css('width', '250px');
+		$('.maps_pequeno').removeClass('hide');
+	}
+
 	skel.breakpoints({
 		wide: '(max-width: 1920px)',
 		normal: '(max-width: 1680px)',
