@@ -2268,6 +2268,48 @@
 
 /* Main */
 
+	/* IMAGENS PARCEIROS LOUNGE */
+	.main.style3.primary .content.container .imagens_soltas .sultan {
+		position: absolute;
+		transform: rotate(-18deg);
+		top: 450px;
+		left: 15px;
+		width: 200px;
+	}
+
+	.main.style3.primary .content.container .imagens_soltas .canal_du_arguile {
+		position: absolute;
+		transform: rotate(18deg);
+		top: 330px;
+		width: 220px;
+	}
+
+	.main.style3.primary .content.container .imagens_soltas .predator {
+		position: absolute;
+		transform: rotate(18deg);
+		top: 980px;
+		width: 220px;
+		border-radius: 20px;
+	}
+
+	.main.style3.primary .content.container .imagens_soltas .hookah_like {
+		position: absolute;
+		transform: rotate(-18deg);
+		top: 830px;
+		left: -10px;
+		width: 220px;
+		border-radius: 20px;
+	}
+
+	.main.style3.primary .content.container .imagens_soltas .pro_hookah {
+		position: absolute;
+		transform: rotate(18deg);
+		top: 680px;
+		width: 240px;
+		border-radius: 20px;
+	}
+	/* FIM DE AJUSTES IMAGENS PARCEIROS LOUNGE*/
+
 	.main {
 		position: relative;
 		margin: 0;
@@ -2366,7 +2408,7 @@
 
 		.main.style3 {
 			text-align: center;
-			padding: 6em 0 6em 0;
+			padding: 3em 0 6em 0;
 		}
 
 			.main.style3 .content > header {
@@ -2388,7 +2430,7 @@
 	}
 
 		.dark a {
-			color: #fff;
+			color: #39454b;
 		}
 
 		.dark .button.style2 {
@@ -2958,7 +3000,7 @@
 			-ms-transform: translateZ(0);
 			transform: translateZ(0);
 			position: relative;
-			bottom: 0;
+			bottom: 35px;
 		}
 
 		#contact.inactive .box {
