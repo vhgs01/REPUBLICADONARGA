@@ -12,6 +12,27 @@
 
 	}
 
+	if (window.innerWidth > 1800) {
+		$('.sultan').css('width',350);
+		$('.sultan').css('left',45);
+
+		$('.hookah_like').css('width',320);
+		$('.hookah_like').css('left',75);
+		$('.hookah_like').css('top',980);
+
+		$('.pro_hookah').css('width',330);
+		$('.pro_hookah').css('top',750);
+		$('.pro_hookah').css('left',window.innerWidth - $('.pro_hookah').width() - 50);
+
+		$('.canal_du_arguile').css('width',330);
+		$('.canal_du_arguile').css('top',350);
+		$('.canal_du_arguile').css('left',window.innerWidth - $('.canal_du_arguile').width() - 50);
+
+		$('.predator').css('width',330);
+		$('.predator').css('top',1000);
+		$('.predator').css('left',window.innerWidth - $('.predator').width() - 50);
+	}
+
 	if (window.innerWidth >= 1366) {
 		$('.maps_grande').removeClass('hide');
 
