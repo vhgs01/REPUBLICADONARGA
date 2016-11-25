@@ -12,6 +12,7 @@
 
 	}
 
+    // Configurações das logos para telas de diferentes tamanhos
 	if (window.innerWidth > 1800) {
 		$('.sultan').css('width',350);
 		$('.sultan').css('left',45);
@@ -31,9 +32,7 @@
 		$('.predator').css('width',330);
 		$('.predator').css('top',1000);
 		$('.predator').css('left',window.innerWidth - $('.predator').width() - 50);
-	}
-
-	if (window.innerWidth >= 1366) {
+	}else if (window.innerWidth >= 1366) {
 		$('.maps_grande').removeClass('hide');
 
 		$('.canal_du_arguile').css('left',window.innerWidth - $('.canal_du_arguile').width() - 15);
@@ -89,6 +88,12 @@
 
 		$('.pro_hookah').css('display','none');
 	}
+
+    //Incluindo header e footer dentro da home
+	$(function(){
+        $('body .header').load('header.html');
+        $('body .footer').load('footer.html');
+    });
 
 	skel.breakpoints({
 		wide: '(max-width: 1920px)',

@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("font-awesome.min.css");
+
+body {
+    font-family: Vollkorn;
+}
+
+body .hide {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+body .headerProdutos #header #nav {
+    font-size: 22px;
+}
+
+/* Definições para todas as medias screens */
+.contentGeral {
+    background: #fff;
+    color: white;
+}
+
+.contentGeral .contentCategorias {
+    position: fixed;
+    background: #39454b;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.contentGeral .contentProdutos {
+    position: fixed;
+    background: #39454b;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1366px) {
+
+    /* Definições do content categorias */
+    .contentGeral .contentCategorias {
+        width: 250px;
+        height: 600px;
+        margin: 10px;
+    }
+
+    .contentGeral .contentCategorias header {
+        font-size: 22px;
+    }
+
+    .contentGeral .contentCategorias .essencias,.carvoes,.roshs,.stems p {
+        line-height: 1;
+        font-size: 18px;
+    }
+
+    /* Definições do content Produtos */
+    .contentGeral .contentProdutos {
+        width: 1070px;
+        height: 600px;
+        left: 262px;
+        margin: 10px;
+    }
+}
